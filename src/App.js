@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Demo number ="1"/>
-      <Person name="Sailesh" />
+      <Person  />
       <Demo number ="2"/>
-      <Person name="Rokaya" />
+      <Person  />
       <Demo number ="3"/>
     </div>
   );

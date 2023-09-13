@@ -5,13 +5,17 @@ class Person extends Component {
   constructor(props) {
     super(props);
     this.props = props;
+    this.state={
+      name:"Sailesh",
+      age:23,
+    }
   }
   render() {
     return (
       <div>
         <div>Name: Sailesh Rokaya</div>
         <div>Age: 25</div>
-        <h1>Dear {this.props.name}, Welcome to KTM</h1>
+        <h1>Dear {this.state.name}, {this.state.age} years old, Welcome to KTM</h1>
         <Man/>
       </div>
     );
